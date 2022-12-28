@@ -1,7 +1,6 @@
 <template>
     <main>
         <p v-show="!event">Event info missing</p>
-         <p><NuxtLink to="/events"> ⬅️ Back to events </NuxtLink></p>
         <h1> {{event?.title}} </h1>
         <h3 v-show="event?.event">{{event?.event}}</h3>
         <p>{{event?.type + ", " + new Date(event?.date).toDateString() }}</p>
@@ -10,7 +9,7 @@
         <iframe
               width="460"
               height="258"
-              :src="`https://www.youtube.com/embed/${event.embed}`"
+              :src="`https://www.youtube.com/embed/${event?.embed}`"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -21,6 +20,7 @@
             <a :href="event?.slides" v-show="event?.slides" target="blank"><span>Slides</span></a>
         <p> {{event?.description}}</p>
         </main>
+        <p><NuxtLink to="/events"> ⬅️ Back to events </NuxtLink></p>
 </template>
 
 <script setup lang="ts">

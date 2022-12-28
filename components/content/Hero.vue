@@ -6,12 +6,16 @@
     </div>
     <div id="icons">
       <a href="https://twitter.com/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
-      <a href="https://www.twitch.tv/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'twitch']" /></a>
+      <a href="https://www.youtube.com/@ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'youtube-square']" /></a>
       <a href="https://github.com/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'github-square']" /></a>
     </div>
     <div id="about">
         <h2>Code + content + community. </h2>
-        <p>Hi, I'm Cecelia Martinez 👋 Developer Advocate for <a href="https://ionic.io/appflow" target="blank">Appflow by Ionic</a>, Chapter Head of <a href="https://www.outintech.com" target="blank">Out in Tech</a> Atlanta, a volunteer with <a href="https://www.womenwhocode.com/frontend" target="blank" >Women Who Code Front End</a>, and a <a href="https://stars.github.com/" target="blank">GitHub Star</a>.</p>
+        <p>Hi, I'm Cecelia Martinez 👋 </p>
+        <p>🚀 Developer Advocate for <a href="https://ionic.io/appflow" target="blank">Appflow by Ionic</a></p>
+        <p>🏳️‍🌈 Chapter Head of <a href="https://www.outintech.com" target="blank">Out in Tech</a> Atlanta</p>
+        <p>👩‍💻 Volunteer with <a href="https://www.womenwhocode.com/frontend" target="blank" >Women Who Code Front End</a></p>
+        <p>⭐️ <a href="https://stars.github.com/" target="blank">GitHub Star</a></p>
     </div>
   </main>
 </template>

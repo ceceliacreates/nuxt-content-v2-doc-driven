@@ -6,6 +6,7 @@ export type EventCategory = 'workshop' | 'conference' | 'webinar' | 'stream'
 export interface Blog extends MarkdownParsedContent {
   title: string
   description: string
+  date: string
   img?: string
   tags: string[]
 }

@@ -1,12 +1,11 @@
 <template>
     <nav>
         <div class="home">
-            <NuxtLink to="/">🏠</NuxtLink>
+            <NuxtLink to="/">🏠 Home</NuxtLink>
         </div>
         <div class="content">
             <NuxtLink to="/blog">✍️ Blog</NuxtLink>
             <NuxtLink to="/events">🗓️ Events</NuxtLink>
-            <NuxtLink to="/videos">📹 Videos</NuxtLink>
         </div>
     </nav>
 </template>
