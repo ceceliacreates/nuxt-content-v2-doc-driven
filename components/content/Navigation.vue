@@ -12,7 +12,7 @@
 
 <style scoped>
 nav {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     display: flex;
     justify-content: space-between;

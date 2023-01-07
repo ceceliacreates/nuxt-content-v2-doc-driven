@@ -2,7 +2,7 @@
   <main>
     <h1>Cecelia Creates</h1>
     <div id="avatar">
-      <nuxt-img src="/avatar.png" sizes="sm:80vw md:50vw lg:300px" id="avatar" />
+      <NuxtImg src="/avatar.png" sizes="sm:80vw md:50vw lg:300px" id="avatar" />
     </div>
     <div id="icons">
       <a href="https://twitter.com/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>

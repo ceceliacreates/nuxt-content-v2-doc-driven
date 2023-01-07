@@ -76,3 +76,5 @@ Like @samanthaelainef says in her blog post, the discomfort of attending a confe
 Over time, you'll get to know more and more people and find your own community. Getting to that point is so rewarding, and worth the initial awkwardness.
 
 If you see me at an event, please come up and say hello! 
+
+[⬅️ Back to posts](/blog)

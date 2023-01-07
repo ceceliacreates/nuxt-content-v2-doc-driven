@@ -1,8 +1,9 @@
 <template>
     <main>
-        <div v-for="item in data" :key="item._path">
-            <h3>➡️ <nuxt-link :to="item._path">{{item.title}}</nuxt-link></h3>
+        <div v-for="item in data" :key="item._path" .class="item">
+            <h3>➡️ <NuxtLink :to="item._path">{{item.title}}</NuxtLink></h3>
             <p id="date">{{new Date(item.date).toDateString()}}</p>
+            <NuxtImg v-show="item.img" :src="`${item.img}`" sizes="sm:80vw md:50vw lg:30vw" />
             <p id="description">{{item.description}}</p>
         </div>
     </main>
@@ -19,6 +20,13 @@ const { data } = await useAsyncData(`content-list-${props.section}`, () => query
 </script>
 
 <style scoped>
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+}
 h3 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -28,5 +36,20 @@ h3 {
 
 #description {
     font-size: .8rem;
+    margin: 1rem auto;
+    max-width: 80vw;
+}
+@media only screen and (min-width: 768px) {
+    #description {
+        max-width: 50vw;
+    }
+}
+@media only screen and (min-width: 982px) {
+    main {
+        gap: 3rem;
+    }
+    #description {
+        max-width: 30vw;
+    }
 }
 </style>
