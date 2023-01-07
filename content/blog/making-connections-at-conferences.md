@@ -4,7 +4,6 @@ description: How to push past the discomfort and make new connections when atten
 date: 2022-11-23
 img: 
 tags: [community, career]
-layout: blog
 ---
 
 There have been a couple examples recently of the importance of making connections at conferences.
