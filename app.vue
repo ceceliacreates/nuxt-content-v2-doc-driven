@@ -7,8 +7,8 @@
 
 <style>
   body {
-    font-family: Helvetica, sans-serif;
-    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(23, 22, 22);
     color:white;
     padding: .5rem;
   }

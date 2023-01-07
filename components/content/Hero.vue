@@ -31,6 +31,8 @@ main {
 
 h1 {
   font-size: 4rem;
+
+  font-family: Arial, Helvetica, sans-serif;
  background: linear-gradient(90deg, rgba(109,204,171,1) 10%, rgba(0,212,255,1) 100%);
  background-clip: text;
   -webkit-background-clip: text;

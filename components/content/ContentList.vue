@@ -2,8 +2,8 @@
     <main>
         <div v-for="item in data" :key="item._path">
             <h3>➡️ <nuxt-link :to="item._path">{{item.title}}</nuxt-link></h3>
-            <p class="date">{{new Date(item.date).toDateString()}}</p>
-            <p>{{item.description}}</p>
+            <p id="date">{{new Date(item.date).toDateString()}}</p>
+            <p id="description">{{item.description}}</p>
         </div>
     </main>
 </template>
@@ -15,11 +15,18 @@ const props = defineProps<{
   section: Section
 }>()
 
-const { data } = await useAsyncData(`content-list-${props.section}`, () => queryContent(`/${props.section}`).where({ _dir: { $ne: '' } }).find())
+const { data } = await useAsyncData(`content-list-${props.section}`, () => queryContent(`/${props.section}`).where({ _dir: { $ne: '' } }).sort({ date: -1 }).find())
 </script>
 
 <style scoped>
-.date {
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+#date {
     font-style: italic;
+}
+
+#description {
+    font-size: .8rem;
 }
 </style>
