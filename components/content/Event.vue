@@ -36,8 +36,6 @@
 
 <script setup lang="ts">
 import { Event } from "~~/types"
-const { path } = useRoute()
-const { data:event } = await useAsyncData(`content-${path}`, () => {
-  return queryContent<Event>().where({ _path: path }).findOne()
-})
+const { page } = useContent()
+const event:Event = page;
 </script>

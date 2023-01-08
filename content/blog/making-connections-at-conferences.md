@@ -4,6 +4,7 @@ description: How to push past the discomfort and make new connections when atten
 date: 2022-11-23
 img: 
 tags: [community, career]
+layout: blog
 ---
 
 There have been a couple examples recently of the importance of making connections at conferences.
@@ -76,5 +77,3 @@ Like @samanthaelainef says in her blog post, the discomfort of attending a confe
 Over time, you'll get to know more and more people and find your own community. Getting to that point is so rewarding, and worth the initial awkwardness.
 
 If you see me at an event, please come up and say hello! 
-
-[⬅️ Back to posts](/blog)
