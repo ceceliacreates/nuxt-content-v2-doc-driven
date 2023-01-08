@@ -5,9 +5,9 @@
       <NuxtImg src="/avatar.png" sizes="sm:80vw md:50vw lg:300px" id="avatar" />
     </div>
     <div id="icons">
-      <a href="https://twitter.com/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
-      <a href="https://www.youtube.com/@ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'youtube-square']" /></a>
-      <a href="https://github.com/ceceliacreates" target="blank"><font-awesome-icon :icon="['fab', 'github-square']" /></a>
+      <a v-for="link in socialLinks" :key="link.name" :href="link.url" target="blank">
+        <font-awesome-icon :icon="['fab', link.icon]" />
+      </a>
     </div>
     <div id="about">
         <h2>Code + content + community. </h2>
@@ -19,6 +19,29 @@
     </div>
   </main>
 </template>
+
+<script setup>
+
+const socialLinks = [
+  {
+    name: 'Twitter',
+    url: 'https://twitter.com/ceceliacreates',
+    icon: 'twitter-square'
+
+  },
+  {
+    name: 'Youtube',
+    url: 'https://www.youtube.com/@ceceliacreates',
+    icon: 'youtube-square'
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/ceceliacreates',
+    icon: 'github-square'
+  }
+
+]
+</script>
 
 <style scoped>
 main {
