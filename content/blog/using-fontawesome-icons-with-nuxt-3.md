@@ -2,7 +2,7 @@
 title: Using FontAwesome Icons with Nuxt 3
 description:
 date: 2023-01-08
-img:
+img: /using-fontawesome-icons-with-nuxt-3.png
 tags: ["nuxt", "icons"]
 layout: blog
 ---

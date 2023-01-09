@@ -9,6 +9,7 @@
         v-show="item.img"
         :src="`${item.img}`"
         sizes="sm:80vw md:50vw lg:30vw"
+        class="thumbnail"
       />
       <p id="description">{{ item.description }}</p>
     </div>
@@ -40,6 +41,10 @@ main {
 }
 h3 {
   font-family: "Courier New", Courier, monospace;
+}
+.thumbnail {
+  border-radius: 1rem;
+  border: .15rem solid white;
 }
 #date {
   font-style: italic;
