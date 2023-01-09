@@ -9,7 +9,7 @@ img: /nuxt-nation-2022.jpg
 embed: eC9xkMVm8_U
 video: https://www.youtube.com/watch?v=eC9xkMVm8_U
 slides: ionic.link/3f385om
-tags: ['nuxt', 'ionic', 'mobile']
+tags: ["nuxt", "ionic", "mobile"]
 ---
 
 :event

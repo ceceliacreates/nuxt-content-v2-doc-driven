@@ -1,7 +1,7 @@
 <template>
-    <div>
-      <BlogHeader />
-      <slot />
-      <BlogFooter />
-    </div>
+  <div>
+    <BlogHeader />
+    <slot />
+    <BlogFooter />
+  </div>
 </template>

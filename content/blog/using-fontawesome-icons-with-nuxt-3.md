@@ -1,9 +1,9 @@
 ---
 title: Using FontAwesome Icons with Nuxt 3
-description: 
+description:
 date: 2023-01-08
-img: 
-tags: ['nuxt', 'icons']
+img:
+tags: ["nuxt", "icons"]
 layout: blog
 ---
 
@@ -33,6 +33,7 @@ After installation, my dependencies in `package.json` look like this:
     "@fortawesome/vue-fontawesome": "^3.0.2"
   }
 ```
+
 ## Configuration
 
 To use FontAwesome icons in Nuxt 3, you'll need to add the following to `css` array in your `nuxt.config` file.
@@ -53,7 +54,6 @@ If you are only using a few icons, you can subset which icons are added to the l
 
 In my `fontawesome.js` file below, I'm only importing the icons I need from `@fortawesome/free-brands-svg-icons`, then passing those values through to `library.add()`.
 
-
 ```
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -68,6 +68,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component('font-awesome-icon', FontAwesomeIcon, {})
 })
 ```
+
 Then, I'm adding the `FontAwesomeIcon` component and registering it as `<font-awesome-icon>` so I can use it in my project.
 
 ### Importing without Subsetting
@@ -85,7 +86,8 @@ library.add(fab)
 
 ## Using Icons
 
-Now, you can use the `<font-awesome-icon>` component in any of your Nuxt pages or components and pass the icon library and name to the `icon` prop. 
+Now, you can use the `<font-awesome-icon>` component in any of your Nuxt pages or components and pass the icon library and name to the `icon` prop.
+
 ```
 <font-awesome-icon icon="fa-brands fa-twitter-square" />
 <font-awesome-icon icon="fa-brands fa-youtube-square" />

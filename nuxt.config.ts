@@ -1,13 +1,11 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/image-edge'],
+  modules: ["@nuxt/content", "@nuxt/image-edge"],
   content: {
-    documentDriven: true
+    documentDriven: true,
   },
-  css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
+  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   image: {
-    provider: "ipx"
-}
-})
+    provider: "ipx",
+  },
+});

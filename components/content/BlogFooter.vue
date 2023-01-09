@@ -1,3 +1,3 @@
 <template>
-    <p><NuxtLink to="/blog"> ⬅️ Back to posts </NuxtLink></p>
+  <p><NuxtLink to="/blog"> ⬅️ Back to posts </NuxtLink></p>
 </template>
