@@ -28,8 +28,6 @@ const { data } = await useAsyncData(`content-list-${props.section}`, () =>
     .sort({ date: -1 })
     .find()
 );
-
-console.log(data.value);
 </script>
 
 <style scoped>

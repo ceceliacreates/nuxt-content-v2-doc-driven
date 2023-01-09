@@ -1,6 +1,8 @@
-# Content v2 Minimal Starter
+# Document-Driven Mode in Nuxt Content v2
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Source code for [ceceliacreates.com](https://ceceliacreates.com), built with v2 the Nuxt Content Module with Document-Driven Mode.
+
+Details on the dev process coming soon!
 
 ## Setup
 
@@ -25,18 +27,16 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
+or
+
+```bash
+npx nuxi dev
+```
+
 ## Production
 
-Build the application for production:
+Build the static application for production:
 
 ```bash
-npm run build
+npm run generate
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
