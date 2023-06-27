@@ -1,5 +1,5 @@
 ---
-event: Mobile DevOps Summit
+event: Mobile DevOps Summit 2022
 title: Customizing your CI/CD for Mobile
 date: 2022-11-10T00:00:00
 type: Conference
