@@ -24,10 +24,6 @@
   h3 {
     font-family: "Courier New", Courier, monospace;
   }
-  .thumbnail {
-    border-radius: 1rem;
-    border: .15rem solid white;
-  }
   #date {
     font-style: italic;
   }
@@ -35,16 +31,11 @@
   #title {
     font-weight: bold;
   }
-  
-  #description {
-    font-size: 0.8rem;
-    margin: 1rem auto;
-  }
 
   .item {
   max-width: 80vw;
-  margin: .5rem;
-  padding: .5rem;
+  margin: .25rem;
+  padding: .25rem;
 }
   </style>
   
