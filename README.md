@@ -2,7 +2,7 @@
 
 Source code for [ceceliacreates.com](https://ceceliacreates.com), built with v2 the Nuxt Content Module with Document-Driven Mode.
 
-Details on the dev process coming soon!
+Read the [blog post here](https://dev.to/ceceliacreates/document-driven-mode-in-nuxt-content-v2-42em) for more details on the dev process.
 
 ## Setup
 
