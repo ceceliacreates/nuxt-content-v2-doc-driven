@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Cecelia Creates</h1>
+    <h1>Cecelia Martinez</h1>
     <div id="avatar">
       <NuxtImg src="/avatar.png" sizes="sm:80vw md:50vw lg:300px" id="avatar" />
     </div>
@@ -15,8 +15,6 @@
       </a>
     </div>
     <div id="about">
-      <h2>Code + content + community.</h2>
-      <p>Hi, I'm Cecelia Martinez 👋</p>
       <p>
         🚀 Developer Advocate for
         <a href="https://ionic.io/appflow" target="blank">Appflow by Ionic</a>
@@ -28,12 +26,12 @@
       </p>
       <p>
         👩‍💻 Volunteer with
-        <a href="https://www.womenwhocode.com/frontend" target="blank"
-          >Women Who Code Front End</a
+        <a href="https://www.womenwhocode.com/" target="blank"
+          >Women Who Code</a
         >
       </p>
       <p>
-        ⭐️ <a href="https://stars.github.com/" target="blank">GitHub Star</a>
+        ⭐️ <a href="https://stars.github.com/" target="blank">GitHub Star</a> Alumni
       </p>
     </div>
   </main>
