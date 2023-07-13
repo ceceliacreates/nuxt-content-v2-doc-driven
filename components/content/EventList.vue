@@ -22,7 +22,7 @@
   const { data } = await useAsyncData(`events`, () =>
     queryContent(`/events`)
       .where({ _dir: { $ne: "" } })
-      .where({ event: { $ne: "" }})
+      .where({ _empty: { $ne: true }})
       .sort({ date: -1 })
       .find()
   );
@@ -34,6 +34,8 @@
   const displayedEvents = computed(()=> {
     return selectedTag.value ? filteredEvents.value : data.value;
   }) 
+
+  console.log(data)
   </script>
   
   <style scoped>
