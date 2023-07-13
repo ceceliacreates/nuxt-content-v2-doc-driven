@@ -22,6 +22,7 @@
   const { data } = await useAsyncData(`events`, () =>
     queryContent(`/events`)
       .where({ _dir: { $ne: "" } })
+      .where({ event: { $ne: "" }})
       .sort({ date: -1 })
       .find()
   );
